@@ -1,0 +1,20 @@
+package prjAula02;
+import java.util.Scanner;
+public class VoumeLata {
+	public static void main(String args[]) {
+		Scanner ler = new Scanner(System.in);
+		double pi,r,v,h;
+		
+		System.out.println("-----------------------------");
+		System.out.println("| SOU O GÊNIO DO ALGORITIMO |");
+		System.out.println("-----------------------------");
+		System.out.println("Vou calcular o volume da Lata");
+		System.out.println("Informe a altura: ");
+		h = ler.nextDouble();
+		System.out.println("Informe o raio: ");
+		r = ler.nextDouble();
+		pi = 3.14;
+		v = pi*r*r*h;
+		System.out.println("Seu Volume: "+v);
+	}
+}
