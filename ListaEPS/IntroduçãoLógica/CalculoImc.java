@@ -7,6 +7,7 @@ public class CalculoImc {
 		altura = 1.60;
 		imc = peso/(altura*altura);
 		
-		System.out.println("Seu gordo, seu imc: " + imc);
+		System.out.println("Seu IMC é: " + imc);
 	}
 }
+
