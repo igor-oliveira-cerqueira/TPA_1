@@ -5,9 +5,6 @@ public class TorreHanoi {
 		Scanner ler = new Scanner(System.in);
 		int a,b,c;
 		
-		System.out.println("-----------------------------");
-		System.out.println("| SOU O GÊNIO DO ALGORITIMO |");
-		System.out.println("-----------------------------");
 		System.out.println("Vou embaralhar suas informações");
 		System.out.println("Informe o valor de A: ");
 		a = ler.nextInt();
@@ -20,3 +17,4 @@ public class TorreHanoi {
 		System.out.println("Valor de B: "+b);
 	}
 }
+
